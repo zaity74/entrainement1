@@ -229,8 +229,8 @@ background-color: #6C6C6C;
     justify-content: center;
   }
     .home .lien_menu a{
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
   height: 100%;
   font-size: 25px;
 }

@@ -76,6 +76,10 @@ export default {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.equipe_page .titre{
+    font-size: 81px;
+
+}
 .equipe_page .card_box{
      margin: 30px auto;
     margin-bottom: 200px;
@@ -104,13 +108,12 @@ export default {
         font-size: 81px;
     }
     .equipe_page .card_box{
-    height: auto;
-    width: 100%;
-    background-color: red;
-    grid-template-columns: repeat(4, 270px);
-    gap: 20px;
-
-}
+        height: auto;
+        width: 100%;
+        background-color: red;
+        grid-template-columns: repeat(4, 270px);
+        gap: 20px;
+    }
 }
     @media all and (max-width: 1150px){
         .equipe_page{
@@ -126,12 +129,6 @@ export default {
             margin-top: 90px;
             background-color: red;
         }
-        .equipe_page .titre{
-            font-size: 81px;
-        }
-        .equipe_page p{
-            font-size: 38px;
-        }
         .equipe_page .btn{
             font-size: 38px;
             text-align: center;
@@ -142,6 +139,13 @@ export default {
         z-index: 1;
         opacity: 0.6;
         filter: grayscale(20%);
+    }
+        .equipe_page .card_box{
+        height: auto;
+        width: 100%;
+        background-color: red;
+        grid-template-columns: repeat(1, 270px);
+        gap: 20px;
     }
 }
 

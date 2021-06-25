@@ -2,7 +2,7 @@
     <div class="card">
 
         <h1>{{card_name}} </h1>
-        <p>{{card_email}}</p>
+        <p class="email">{{card_email}}</p>
 
     </div>
 </template>
@@ -23,8 +23,14 @@
 
 <style>
 .card{
+    padding-right: 20px;
     height: 373px;
     border-radius: 2px;
+}
+.card .email{
+    font-size: 38px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 </style>
