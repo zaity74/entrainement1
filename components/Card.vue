@@ -26,11 +26,18 @@
     padding-right: 20px;
     height: 373px;
     border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+        padding-right: 20px;
+    padding-left: 20px;
 }
 .card .email{
-    font-size: 38px;
-    margin-right: 20px;
-    margin-left: 20px;
+    font-size: 18px;
+    width: 80%;
+    background-color: teal;
+    float: right;
+    text-align: center;
 }
 
 </style>
